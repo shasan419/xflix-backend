@@ -1,0 +1,1066 @@
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 185.907 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 14.221 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: GET /v1/videos?title=video18 200 - 14.553 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 21.994 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 21.142 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 17.657 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 5.694 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 38.155 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 4.939 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 1.866 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 2.226 ms - message: Cannot read property 'split' of undefined
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 153.306 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 9.998 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: GET /v1/videos?title=video18 200 - 52.291 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 31.686 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 110.536 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 7.347 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: GET /v1/videos?title=video18 200 - 25.640 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.252 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 3.783 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 5.827 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.032 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 6.492 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 2.234 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 2.463 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 1.753 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:8775) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 136.792 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 16.437 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: GET /v1/videos?title=video18 200 - 36.668 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 5.352 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 4.478 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 3.433 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 3.947 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 12.145 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 1.889 ms - message: Cannot read property 'split' of undefined
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:9346) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 161.220 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 7.696 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: GET /v1/videos?title=video18 200 - 33.436 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.420 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 5.127 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 7.599 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.459 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 8.552 ms
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 1.809 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 3.344 ms - message: Cannot read property 'split' of undefined
+[31merror[39m: TypeError: Cannot read property 'split' of undefined
+    at Object.getQueriedVideos (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:95:49)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:10:32
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/utils/catchAsync.js:8:23
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:174:3)
+    at router (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:317:13)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/router/index.js:335:12)
+[31merror[39m: GET /v1/videos 500 - 2.137 ms - message: Cannot read property 'split' of undefined
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:10581) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[31merror[39m: Error: listen EADDRINUSE: address already in use :::8082
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/express@4.17.1/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:18:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 7
+npm ERR! backend@1.0.0 start: `node src/index.js`
+npm ERR! Exit status 7
+npm ERR! 
+npm ERR! Failed at the backend@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/crio-user/.npm/_logs/2021-05-08T09_45_37_479Z-debug.log
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:11462) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:12064) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 119.921 ms
+[32minfo[39m: GET /v1/videos 200 - 33.660 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 5.562 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.824 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 4.198 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.482 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.392 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 6.118 ms
+[32minfo[39m: GET /v1/videos 200 - 3.999 ms
+[32minfo[39m: GET /v1/videos 200 - 5.165 ms
+[32minfo[39m: GET /v1/videos 200 - 5.904 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:12659) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 137.082 ms
+[32minfo[39m: POST /v1/videos 201 - 12.920 ms
+[32minfo[39m: POST /v1/videos 201 - 19.043 ms
+[32minfo[39m: POST /v1/videos 201 - 8.851 ms
+[32minfo[39m: POST /v1/videos 201 - 9.456 ms
+[32minfo[39m: POST /v1/videos 201 - 18.228 ms
+[32minfo[39m: POST /v1/videos 201 - 11.054 ms
+[32minfo[39m: POST /v1/videos 201 - 9.137 ms
+[32minfo[39m: POST /v1/videos 201 - 17.014 ms
+[32minfo[39m: POST /v1/videos 201 - 8.851 ms
+[32minfo[39m: POST /v1/videos 201 - 8.846 ms
+[32minfo[39m: POST /v1/videos 201 - 12.983 ms
+[32minfo[39m: POST /v1/videos 201 - 23.435 ms
+[32minfo[39m: POST /v1/videos 201 - 8.725 ms
+[32minfo[39m: POST /v1/videos 201 - 13.577 ms
+[32minfo[39m: POST /v1/videos 201 - 8.565 ms
+[32minfo[39m: POST /v1/videos 201 - 9.141 ms
+[32minfo[39m: POST /v1/videos 201 - 12.519 ms
+[32minfo[39m: POST /v1/videos 201 - 8.369 ms
+[32minfo[39m: POST /v1/videos 201 - 8.908 ms
+[32minfo[39m: POST /v1/videos 201 - 18.661 ms
+[32minfo[39m: GET /v1/videos 200 - 100.407 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 34.259 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 68.273 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 26.849 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 30.356 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 61.695 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 38.771 ms
+[32minfo[39m: GET /v1/videos 200 - 17.242 ms
+[32minfo[39m: PATCH /v1/videos/60965fddeee1e93173bebe0b/votes 204 - 29.396 ms
+[32minfo[39m: GET /v1/videos/60965fddeee1e93173bebe0b 200 - 7.064 ms
+[32minfo[39m: GET /v1/videos 200 - 53.637 ms
+[32minfo[39m: PATCH /v1/videos/60965fddeee1e93173bebe0b/votes 204 - 11.379 ms
+[32minfo[39m: GET /v1/videos/60965fddeee1e93173bebe0b 200 - 4.942 ms
+[32minfo[39m: GET /v1/videos 200 - 40.100 ms
+[32minfo[39m: PATCH /v1/videos/60965fddeee1e93173bebe0b/views 204 - 11.072 ms
+[32minfo[39m: GET /v1/videos/60965fddeee1e93173bebe0b 200 - 18.060 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:14045) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:14169) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 120.620 ms
+[32minfo[39m: POST /v1/videos 201 - 11.401 ms
+[32minfo[39m: POST /v1/videos 201 - 12.785 ms
+[32minfo[39m: POST /v1/videos 201 - 13.534 ms
+[32minfo[39m: POST /v1/videos 201 - 16.336 ms
+[32minfo[39m: POST /v1/videos 201 - 10.079 ms
+[32minfo[39m: POST /v1/videos 201 - 13.346 ms
+[32minfo[39m: POST /v1/videos 201 - 10.248 ms
+[32minfo[39m: POST /v1/videos 201 - 8.314 ms
+[32minfo[39m: POST /v1/videos 201 - 9.439 ms
+[32minfo[39m: POST /v1/videos 201 - 9.223 ms
+[32minfo[39m: POST /v1/videos 201 - 9.875 ms
+[32minfo[39m: POST /v1/videos 201 - 20.896 ms
+[32minfo[39m: POST /v1/videos 201 - 9.831 ms
+[32minfo[39m: POST /v1/videos 201 - 8.316 ms
+[32minfo[39m: POST /v1/videos 201 - 8.400 ms
+[32minfo[39m: POST /v1/videos 201 - 8.578 ms
+[32minfo[39m: POST /v1/videos 201 - 8.046 ms
+[32minfo[39m: POST /v1/videos 201 - 8.232 ms
+[32minfo[39m: POST /v1/videos 201 - 12.971 ms
+[32minfo[39m: POST /v1/videos 201 - 8.342 ms
+[32minfo[39m: GET /v1/videos 200 - 75.840 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.393 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 16.668 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 6.145 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.608 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.127 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 24.185 ms
+[32minfo[39m: GET /v1/videos 200 - 93.302 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/votes 204 - 42.739 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 5.274 ms
+[32minfo[39m: GET /v1/videos 200 - 48.736 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/votes 204 - 10.466 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 6.809 ms
+[32minfo[39m: GET /v1/videos 200 - 39.731 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/views 204 - 13.392 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 8.100 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:16362) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[31merror[39m: TypeError: Invalid `path`. Must be either string or array
+    at Object.exports.get (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mpath@0.8.3/node_modules/mpath/lib/index.js:59:11)
+    at Object.exports.getValue (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/utils.js:596:16)
+    at model.Document.$__getValue (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/document.js:1559:16)
+    at generateVersionError (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:431:23)
+    at model.Model.save (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:488:28)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3079:16
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3109:7
+    at Array.forEach (<anonymous>)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3108:15
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/index.js:1154:10)
+    at Function.create (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3043:23)
+    at Object.addVideo (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:140:31)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:32:36
+[31merror[39m: POST /v1/videos 500 - 72.899 ms - message: Invalid `path`. Must be either string or array
+[32minfo[39m: GET /v1/videos 200 - 68.771 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.875 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.998 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 8.553 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.835 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 5.961 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 45.637 ms
+[32minfo[39m: GET /v1/videos 200 - 45.667 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/votes 204 - 49.058 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 5.378 ms
+[32minfo[39m: GET /v1/videos 200 - 104.522 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/votes 204 - 13.016 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 5.247 ms
+[32minfo[39m: GET /v1/videos 200 - 30.508 ms
+[32minfo[39m: PATCH /v1/videos/609662c031669c37597c7bf2/views 204 - 13.367 ms
+[32minfo[39m: GET /v1/videos/609662c031669c37597c7bf2 200 - 4.383 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:18368) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:18467) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 178.278 ms
+[32minfo[39m: GET /v1/videos 200 - 47.034 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 5.935 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 3.706 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 3.885 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.081 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.004 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 5.441 ms
+[32minfo[39m: GET /v1/videos 200 - 4.539 ms
+[32minfo[39m: GET /v1/videos 200 - 35.294 ms
+[32minfo[39m: GET /v1/videos 200 - 4.124 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:19105) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 160.395 ms
+[32minfo[39m: GET /v1/videos 200 - 52.591 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 5.683 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.056 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 3.879 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 3.995 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 3.389 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 5.347 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:19903) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[31merror[39m: TypeError: Invalid `path`. Must be either string or array
+    at Object.exports.get (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mpath@0.8.3/node_modules/mpath/lib/index.js:59:11)
+    at Object.exports.getValue (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/utils.js:596:16)
+    at model.Document.$__getValue (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/document.js:1559:16)
+    at generateVersionError (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:431:23)
+    at model.Model.save (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:488:28)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3079:16
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3109:7
+    at Array.forEach (<anonymous>)
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3108:15
+    at /home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/helpers/promiseOrCallback.js:31:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/helpers/promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/index.js:1154:10)
+    at Function.create (/home/crio-user/c050b176e184a21510b804a4d0b26975cad6f3da71caec6c9cfdebe64527aec9/node_modules/.pnpm/mongoose@5.12.7/node_modules/mongoose/lib/model.js:3043:23)
+    at Object.addVideo (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/services/videos.service.js:140:31)
+    at /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/controllers/videos.controller.js:32:36
+[31merror[39m: POST /v1/videos 500 - 106.966 ms - message: Invalid `path`. Must be either string or array
+[32minfo[39m: GET /v1/videos 200 - 32.817 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.674 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 3.927 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:21502) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 112.998 ms
+[32minfo[39m: GET /v1/videos 200 - 22.830 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.862 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 4.542 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 4.539 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 3.553 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 9.526 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:22527) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 227.236 ms
+[32minfo[39m: GET /v1/videos 200 - 54.375 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 7.231 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 3.765 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:23818) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 121.484 ms
+[32minfo[39m: GET /v1/videos 200 - 70.660 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.780 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 3.727 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 3.923 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 3.725 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.254 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 21.805 ms
+[32minfo[39m: GET /v1/videos 200 - 8.235 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/votes 204 - 37.377 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 11.326 ms
+[32minfo[39m: GET /v1/videos?title=consumed 200 - 18.927 ms
+[32minfo[39m: GET /v1/videos 200 - 32.102 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/votes 204 - 13.913 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 6.850 ms
+[32minfo[39m: GET /v1/videos 200 - 18.833 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/views 204 - 11.274 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 15.862 ms
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:26278) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 136.779 ms
+[32minfo[39m: POST /v1/videos 201 - 11.787 ms
+[32minfo[39m: POST /v1/videos 201 - 20.859 ms
+[32minfo[39m: POST /v1/videos 201 - 19.126 ms
+[32minfo[39m: POST /v1/videos 201 - 10.736 ms
+[32minfo[39m: POST /v1/videos 201 - 18.081 ms
+[32minfo[39m: POST /v1/videos 201 - 10.700 ms
+[32minfo[39m: POST /v1/videos 201 - 9.258 ms
+[32minfo[39m: POST /v1/videos 201 - 10.277 ms
+[32minfo[39m: POST /v1/videos 201 - 11.620 ms
+[32minfo[39m: POST /v1/videos 201 - 9.450 ms
+[32minfo[39m: POST /v1/videos 201 - 9.536 ms
+[32minfo[39m: POST /v1/videos 201 - 16.384 ms
+[32minfo[39m: POST /v1/videos 201 - 9.685 ms
+[32minfo[39m: POST /v1/videos 201 - 10.850 ms
+[32minfo[39m: POST /v1/videos 201 - 10.225 ms
+[32minfo[39m: POST /v1/videos 201 - 12.460 ms
+[32minfo[39m: POST /v1/videos 201 - 12.350 ms
+[32minfo[39m: POST /v1/videos 201 - 8.846 ms
+[32minfo[39m: POST /v1/videos 201 - 9.380 ms
+[32minfo[39m: POST /v1/videos 201 - 13.322 ms
+[32minfo[39m: GET /v1/videos 200 - 82.472 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 5.663 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 5.372 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 6.322 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 6.163 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 6.583 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 104.862 ms
+[32minfo[39m: GET /v1/videos 200 - 34.320 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/votes 204 - 37.854 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 7.158 ms
+[32minfo[39m: GET /v1/videos 200 - 52.714 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/votes 204 - 13.158 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 4.823 ms
+[32minfo[39m: GET /v1/videos 200 - 97.010 ms
+[32minfo[39m: PATCH /v1/videos/60967ae31aed1e57892e590a/views 204 - 13.794 ms
+[32minfo[39m: GET /v1/videos/60967ae31aed1e57892e590a 200 - 4.584 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:26801) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 224.178 ms
+[32minfo[39m: POST /v1/videos 201 - 10.847 ms
+[32minfo[39m: POST /v1/videos 201 - 11.686 ms
+[32minfo[39m: POST /v1/videos 201 - 8.945 ms
+[32minfo[39m: POST /v1/videos 201 - 9.657 ms
+[32minfo[39m: POST /v1/videos 201 - 10.597 ms
+[32minfo[39m: POST /v1/videos 201 - 9.725 ms
+[32minfo[39m: POST /v1/videos 201 - 10.077 ms
+[32minfo[39m: POST /v1/videos 201 - 10.990 ms
+[32minfo[39m: POST /v1/videos 201 - 8.596 ms
+[32minfo[39m: POST /v1/videos 201 - 9.818 ms
+[32minfo[39m: POST /v1/videos 201 - 14.880 ms
+[32minfo[39m: POST /v1/videos 201 - 10.897 ms
+[32minfo[39m: POST /v1/videos 201 - 9.203 ms
+[32minfo[39m: POST /v1/videos 201 - 10.715 ms
+[32minfo[39m: POST /v1/videos 201 - 20.402 ms
+[32minfo[39m: POST /v1/videos 201 - 8.435 ms
+[32minfo[39m: POST /v1/videos 201 - 11.208 ms
+[32minfo[39m: POST /v1/videos 201 - 8.984 ms
+[32minfo[39m: POST /v1/videos 201 - 8.139 ms
+[32minfo[39m: POST /v1/videos 201 - 8.999 ms
+[32minfo[39m: GET /v1/videos 200 - 101.341 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 5.586 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 24.084 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 7.285 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.187 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 7.481 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 30.342 ms
+[32minfo[39m: GET /v1/videos 200 - 97.467 ms
+[32minfo[39m: PATCH /v1/videos/609684023ad77f68b1fb28e4/votes 204 - 40.995 ms
+[32minfo[39m: GET /v1/videos/609684023ad77f68b1fb28e4 200 - 6.007 ms
+[32minfo[39m: GET /v1/videos 200 - 37.629 ms
+[32minfo[39m: PATCH /v1/videos/609684023ad77f68b1fb28e4/votes 204 - 15.022 ms
+[32minfo[39m: GET /v1/videos/609684023ad77f68b1fb28e4 200 - 5.054 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:28485) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+(node:28836) [MONGODB DRIVER] Warning: the options [failOnStatusCode] is not supported
+(Use `node --trace-warnings ...` to show where the warning was created)
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 162.094 ms
+[32minfo[39m: POST /v1/videos 201 - 13.905 ms
+[32minfo[39m: POST /v1/videos 201 - 19.329 ms
+[32minfo[39m: POST /v1/videos 201 - 9.511 ms
+[32minfo[39m: POST /v1/videos 201 - 10.383 ms
+[32minfo[39m: POST /v1/videos 201 - 15.607 ms
+[32minfo[39m: POST /v1/videos 201 - 11.689 ms
+[32minfo[39m: POST /v1/videos 201 - 9.578 ms
+[32minfo[39m: POST /v1/videos 201 - 9.907 ms
+[32minfo[39m: POST /v1/videos 201 - 13.296 ms
+[32minfo[39m: POST /v1/videos 201 - 10.279 ms
+[32minfo[39m: POST /v1/videos 201 - 10.090 ms
+[32minfo[39m: POST /v1/videos 201 - 20.372 ms
+[32minfo[39m: POST /v1/videos 201 - 11.701 ms
+[32minfo[39m: POST /v1/videos 201 - 13.649 ms
+[32minfo[39m: POST /v1/videos 201 - 9.524 ms
+[32minfo[39m: POST /v1/videos 201 - 10.507 ms
+[32minfo[39m: POST /v1/videos 201 - 8.877 ms
+[32minfo[39m: POST /v1/videos 201 - 11.569 ms
+[32minfo[39m: POST /v1/videos 201 - 9.405 ms
+[32minfo[39m: POST /v1/videos 201 - 8.797 ms
+[32minfo[39m: GET /v1/videos 200 - 62.433 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 8.177 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 17.605 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 5.701 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.048 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 6.187 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 34.941 ms
+[32minfo[39m: GET /v1/videos 200 - 691.850 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/votes 204 - 52.985 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 8.872 ms
+[32minfo[39m: GET /v1/videos 200 - 36.169 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/votes 204 - 13.725 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 24.473 ms
+[32minfo[39m: GET /v1/videos 200 - 29.052 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/views 204 - 11.538 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 19.156 ms
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 155.000 ms
+[32minfo[39m: POST /v1/videos 201 - 17.616 ms
+[32minfo[39m: POST /v1/videos 201 - 10.906 ms
+[32minfo[39m: POST /v1/videos 201 - 9.823 ms
+[32minfo[39m: POST /v1/videos 201 - 11.153 ms
+[32minfo[39m: POST /v1/videos 201 - 10.937 ms
+[32minfo[39m: POST /v1/videos 201 - 11.268 ms
+[32minfo[39m: POST /v1/videos 201 - 12.659 ms
+[32minfo[39m: POST /v1/videos 201 - 12.757 ms
+[32minfo[39m: POST /v1/videos 201 - 13.619 ms
+[32minfo[39m: POST /v1/videos 201 - 9.217 ms
+[32minfo[39m: POST /v1/videos 201 - 8.620 ms
+[32minfo[39m: POST /v1/videos 201 - 13.405 ms
+[32minfo[39m: POST /v1/videos 201 - 8.831 ms
+[32minfo[39m: POST /v1/videos 201 - 9.618 ms
+[32minfo[39m: POST /v1/videos 201 - 7.894 ms
+[32minfo[39m: POST /v1/videos 201 - 8.784 ms
+[32minfo[39m: POST /v1/videos 201 - 9.276 ms
+[32minfo[39m: POST /v1/videos 201 - 7.956 ms
+[32minfo[39m: POST /v1/videos 201 - 10.187 ms
+[32minfo[39m: POST /v1/videos 201 - 8.695 ms
+[32minfo[39m: GET /v1/videos 200 - 114.139 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 7.079 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 5.800 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 18.141 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 4.766 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 45.108 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 120.882 ms
+[32minfo[39m: GET /v1/videos 200 - 92.423 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/votes 204 - 57.565 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 9.712 ms
+[32minfo[39m: GET /v1/videos 200 - 74.676 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/votes 204 - 9.842 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 12.930 ms
+[32minfo[39m: GET /v1/videos 200 - 104.500 ms
+[32minfo[39m: PATCH /v1/videos/6096872433352270a4087d52/views 204 - 11.115 ms
+[32minfo[39m: GET /v1/videos/6096872433352270a4087d52 200 - 4.296 ms
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 186.043 ms
+[32minfo[39m: POST /v1/videos 201 - 15.007 ms
+[32minfo[39m: POST /v1/videos 201 - 23.950 ms
+[32minfo[39m: POST /v1/videos 201 - 10.158 ms
+[32minfo[39m: POST /v1/videos 201 - 9.850 ms
+[32minfo[39m: POST /v1/videos 201 - 25.641 ms
+[32minfo[39m: POST /v1/videos 201 - 10.195 ms
+[32minfo[39m: POST /v1/videos 201 - 16.536 ms
+[32minfo[39m: POST /v1/videos 201 - 9.421 ms
+[32minfo[39m: POST /v1/videos 201 - 15.951 ms
+[32minfo[39m: POST /v1/videos 201 - 14.587 ms
+[32minfo[39m: POST /v1/videos 201 - 10.057 ms
+[32minfo[39m: POST /v1/videos 201 - 11.564 ms
+[32minfo[39m: POST /v1/videos 201 - 7.713 ms
+[32minfo[39m: POST /v1/videos 201 - 9.143 ms
+[32minfo[39m: POST /v1/videos 201 - 8.460 ms
+[32minfo[39m: POST /v1/videos 201 - 8.240 ms
+[32minfo[39m: POST /v1/videos 201 - 12.446 ms
+[32minfo[39m: POST /v1/videos 201 - 19.631 ms
+[32minfo[39m: POST /v1/videos 201 - 11.320 ms
+[32minfo[39m: POST /v1/videos 201 - 9.671 ms
+[32minfo[39m: GET /v1/videos 200 - 93.624 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.522 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 9.448 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 8.450 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 6.037 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 5.034 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 29.970 ms
+[32minfo[39m: GET /v1/videos 200 - 103.042 ms
+[32minfo[39m: PATCH /v1/videos/60968a45760cd210d89b3e29/votes 204 - 46.993 ms
+[32minfo[39m: GET /v1/videos/60968a45760cd210d89b3e29 200 - 7.697 ms
+[32minfo[39m: GET /v1/videos 200 - 76.658 ms
+[32minfo[39m: PATCH /v1/videos/60968a45760cd210d89b3e29/votes 204 - 13.541 ms
+[32minfo[39m: GET /v1/videos/60968a45760cd210d89b3e29 200 - 4.780 ms
+[32minfo[39m: GET /v1/videos 200 - 43.524 ms
+[32minfo[39m: PATCH /v1/videos/60968a45760cd210d89b3e29/views 204 - 10.233 ms
+[32minfo[39m: GET /v1/videos/60968a45760cd210d89b3e29 200 - 6.017 ms
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 154.862 ms
+[32minfo[39m: POST /v1/videos 201 - 15.787 ms
+[32minfo[39m: POST /v1/videos 201 - 39.785 ms
+[32minfo[39m: POST /v1/videos 201 - 11.071 ms
+[32minfo[39m: POST /v1/videos 201 - 28.669 ms
+[32minfo[39m: POST /v1/videos 201 - 13.054 ms
+[32minfo[39m: POST /v1/videos 201 - 9.235 ms
+[32minfo[39m: POST /v1/videos 201 - 8.222 ms
+[32minfo[39m: POST /v1/videos 201 - 9.755 ms
+[32minfo[39m: POST /v1/videos 201 - 9.063 ms
+[32minfo[39m: POST /v1/videos 201 - 10.899 ms
+[32minfo[39m: POST /v1/videos 201 - 18.648 ms
+[32minfo[39m: POST /v1/videos 201 - 12.948 ms
+[32minfo[39m: POST /v1/videos 201 - 26.194 ms
+[32minfo[39m: POST /v1/videos 201 - 11.029 ms
+[32minfo[39m: POST /v1/videos 201 - 10.692 ms
+[32minfo[39m: POST /v1/videos 201 - 9.073 ms
+[32minfo[39m: POST /v1/videos 201 - 8.636 ms
+[32minfo[39m: POST /v1/videos 201 - 8.443 ms
+[32minfo[39m: POST /v1/videos 201 - 10.685 ms
+[32minfo[39m: POST /v1/videos 201 - 12.376 ms
+[32minfo[39m: GET /v1/videos 200 - 97.867 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 22.687 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 5.710 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 11.625 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 9.772 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 13.475 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 31.910 ms
+[32minfo[39m: GET /v1/videos 200 - 69.051 ms
+[32minfo[39m: PATCH /v1/videos/60968de0eb1c2f1680df6e87/votes 204 - 41.799 ms
+[32minfo[39m: GET /v1/videos/60968de0eb1c2f1680df6e87 200 - 4.907 ms
+[32minfo[39m: GET /v1/videos 200 - 39.793 ms
+[32minfo[39m: PATCH /v1/videos/60968de0eb1c2f1680df6e87/votes 204 - 16.224 ms
+[32minfo[39m: GET /v1/videos/60968de0eb1c2f1680df6e87 200 - 5.329 ms
+[32minfo[39m: GET /v1/videos 200 - 38.578 ms
+[32minfo[39m: PATCH /v1/videos/60968de0eb1c2f1680df6e87/views 204 - 11.190 ms
+[32minfo[39m: GET /v1/videos/60968de0eb1c2f1680df6e87 200 - 3.855 ms
+[32minfo[39m: SIGTERM received
+[31merror[39m: TypeError: server.close is not a function
+    at process.<anonymous> (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:45:12)
+    at process.emit (events.js:315:20)
+/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25
+    server.close(() => {
+           ^
+
+TypeError: server.close is not a function
+    at exitHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:25:12)
+    at process.unexpectedErrorHandler (/home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend/src/index.js:36:3)
+    at process.emit (events.js:315:20)
+    at process._fatalException (internal/process/execution.js:163:25)
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+
+> backend@1.0.0 start /home/crio-user/workspace/shasan419-ME_BUILDOUT_XFLIX_NODE/backend
+> node src/index.js
+
+[32minfo[39m: App is running on port 8082
+[32minfo[39m: Database connection successful
+[32minfo[39m: POST /v1/videos 201 - 167.843 ms
+[32minfo[39m: POST /v1/videos 201 - 18.520 ms
+[32minfo[39m: POST /v1/videos 201 - 15.030 ms
+[32minfo[39m: POST /v1/videos 201 - 9.657 ms
+[32minfo[39m: POST /v1/videos 201 - 10.204 ms
+[32minfo[39m: POST /v1/videos 201 - 16.179 ms
+[32minfo[39m: POST /v1/videos 201 - 19.952 ms
+[32minfo[39m: POST /v1/videos 201 - 10.803 ms
+[32minfo[39m: POST /v1/videos 201 - 18.229 ms
+[32minfo[39m: POST /v1/videos 201 - 20.543 ms
+[32minfo[39m: POST /v1/videos 201 - 10.962 ms
+[32minfo[39m: POST /v1/videos 201 - 21.195 ms
+[32minfo[39m: POST /v1/videos 201 - 18.766 ms
+[32minfo[39m: POST /v1/videos 201 - 9.401 ms
+[32minfo[39m: POST /v1/videos 201 - 8.286 ms
+[32minfo[39m: POST /v1/videos 201 - 9.424 ms
+[32minfo[39m: POST /v1/videos 201 - 10.683 ms
+[32minfo[39m: POST /v1/videos 201 - 8.850 ms
+[32minfo[39m: POST /v1/videos 201 - 8.352 ms
+[32minfo[39m: POST /v1/videos 201 - 16.177 ms
+[32minfo[39m: POST /v1/videos 201 - 9.715 ms
+[32minfo[39m: GET /v1/videos 200 - 87.984 ms
+[32minfo[39m: GET /v1/videos?title=video18 200 - 4.991 ms
+[32minfo[39m: GET /v1/videos?genres=Sports 200 - 12.207 ms
+[32minfo[39m: GET /v1/videos?genres=Sports,Lifestyle 200 - 5.427 ms
+[32minfo[39m: GET /v1/videos?contentRating=18%2B 200 - 3.849 ms
+[32minfo[39m: GET /v1/videos?title=consumed&genres=Sports,Lifestyle&contentRating=12%2B 200 - 4.780 ms
+[32minfo[39m: GET /v1/videos?sortBy=releaseDate 200 - 29.701 ms
+[32minfo[39m: GET /v1/videos 200 - 93.964 ms
+[32minfo[39m: PATCH /v1/videos/60968e88c3acb01b1170d4f9/votes 204 - 33.684 ms
+[32minfo[39m: GET /v1/videos/60968e88c3acb01b1170d4f9 200 - 4.807 ms
+[32minfo[39m: GET /v1/videos 200 - 61.094 ms
+[32minfo[39m: PATCH /v1/videos/60968e88c3acb01b1170d4f9/votes 204 - 8.889 ms
+[32minfo[39m: GET /v1/videos/60968e88c3acb01b1170d4f9 200 - 7.786 ms
+[32minfo[39m: GET /v1/videos 200 - 34.165 ms
+[32minfo[39m: PATCH /v1/videos/60968e88c3acb01b1170d4f9/views 204 - 9.822 ms
+[32minfo[39m: GET /v1/videos/60968e88c3acb01b1170d4f9 200 - 5.497 ms
