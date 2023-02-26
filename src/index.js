@@ -6,7 +6,7 @@ const logger = require("./config/logger");
 
 
 let server;
-
+mongoose.set("strictQuery", false);
 server = mongoose.connect(config.mongoose.url,config.mongoose.options).then(() => {
   logger.info('Database connection successful')
 })
