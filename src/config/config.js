@@ -27,18 +27,8 @@ module.exports = {
   mongoose: {
     url: envVars.MONGODB_URL + (envVars.NODE_ENV === "test" ? "-test" : ""),
     options: {
-      useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useFindAndModify: false
     },
   },
-//   default_wallet_money: DEFAULT_WALLET_MONEY,
-//   default_payment_option: DEFAULT_PAYMENT_OPTION,
-//   default_address: DEFAULT_ADDRESSS,
-//   jwt: {
-//     secret: envVars.JWT_SECRET,
-//     accessExpirationMinutes: envVars.JWT_ACCESS_EXPIRATION_MINUTES,
-//     refreshExpirationDays: envVars.JWT_REFRESH_EXPIRATION_DAYS,
-//   },
 };

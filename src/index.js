@@ -11,7 +11,7 @@ server = mongoose.connect(config.mongoose.url,config.mongoose.options).then(() =
   logger.info('Database connection successful')
 })
 .catch(err => {
-  logger.info('Database connection error')
+  logger.info('Database connection error',err)
 })
 
 // Start the Node server
